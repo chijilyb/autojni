@@ -1,0 +1,12 @@
+long Init(int focusMode);
+int SetxxxxxxxxxxnData(long handle, byte[] data);
+int Setxxxxxxxee(long handle, int degree);
+int Setxxxxjh(long handle, float maxfov);
+int Setxxxxxxxxm(long handle, int[] faceRects, int[] faceAngles);
+int Calcxxxxxxxxxxxxxeal(long handle, byte[] leftImg, int leftImgWidth, int leftImgHeight, int leftImgStride, int leftImgScanline, byte[] rightImg, int rightImgWidth, int rightImgHeight, int rightImgstride, int rightImgscanline);
+int Setxxxxxxxint(long handle, int x, int y);
+int Sexxxxxxxxxxxity(long handle, int blurIntensity);
+int Proxxxxxxxxx21(long handle, byte[] leftImg, int leftImgWidth, int leftImgHeight, int leftImgStride, int leftImgScanline, byte[] dstImg, int dstImgWidth, int dstImgHeight);
+int Unit(long handle);
+int ConvertJpeg2NV21(byte[] rgb32, int width, int height, byte[] nv21);
+int ConvertJpeg2NV21_V2(byte[] jpeg, byte[] nv21);
